@@ -1,0 +1,9 @@
+{
+ "meta.title": "Intelligent UI",
+ "meta.description": "Turn answers into interactive cards, charts and tools using OpenUI and your current model.",
+ "title": "Intelligent UI", "generating": "Generating interactive answer…", "loading": "Preparing interface…",
+ "failed": "This interface could not be rendered", "source": "View source", "reset": "Reset", "send": "Send to assistant",
+ "sent": "Sent to this conversation", "sending": "Sending…", "unavailable": "This conversation is not available",
+ "demo": "Try Intelligent UI", "demoPrompt": "Use render_intelligent_ui to build an interactive monthly budget planner: editable income and housing/food/transport budgets, remaining balance updates instantly, a bar chart, and a button to ask for savings advice. Clearly label all example amounts as demo data.",
+ "submit": "Submit", "copy": "Copy", "filter": "Filter rows", "empty": "No matching rows", "externalImage": "External image", "imageFailed": "Image unavailable", "map": "Open map", "demoBadge": "Example data", "state": "Current input values", "parse": "Invalid OpenUI program", "actionFailed": "Could not send the request", "progress": "Rendering", "chart": "Chart", "controls": "Interactive controls"
+}

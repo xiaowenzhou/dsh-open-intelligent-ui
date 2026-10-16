@@ -1,0 +1,17 @@
+{
+  "name": "@local/dsh-intelligent-ui",
+  "version": "0.1.0",
+  "description": "OpenUI-powered interactive answers inside DeepSeek Harness conversations",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "exports": { ".": "./dist/index.js", "./client": "./dist/client.js", "./locale/*.json": "./locale/*.json", "./icon": "./icon.svg" },
+  "files": ["dist", "cordis.patch.yml", "locale", "icon.svg", "README.md", "LICENSE"],
+  "repository": { "type": "git", "url": "https://github.com/xiaowenzhou/dsh-open-intelligent-ui.git" },
+  "homepage": "https://github.com/xiaowenzhou/dsh-open-intelligent-ui#readme",
+  "bugs": { "url": "https://github.com/xiaowenzhou/dsh-open-intelligent-ui/issues" },
+  "scripts": { "build": "node scripts/build.mjs", "test": "node --test tests/*.test.mjs", "check": "npm run build && npm test", "prepack": "npm run check", "verify:pack": "node scripts/verify-pack.mjs" },
+  "dependencies": { "@openuidev/lang-core": "1.0.1", "@openuidev/react-lang": "1.0.1", "zod": "4.4.3", "react": "19.2.3" },
+  "devDependencies": { "esbuild": "0.25.12", "react-dom": "19.2.3" },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" }, "client": { "platform": "web", "immediately": true, "inject": ["@deepseek-ai/dsh-client-ui-conversation", "@deepseek-ai/dsh-client-ui-tool"] } }
+}

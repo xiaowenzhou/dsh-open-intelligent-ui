@@ -1,0 +1,9 @@
+{
+ "meta.title": "智能交互界面",
+ "meta.description": "使用 OpenUI 和当前模型，把回答变成交互卡片、图表和小工具。",
+ "title": "智能交互界面", "generating": "正在生成交互式回答…", "loading": "正在准备界面…",
+ "failed": "这个界面暂时无法呈现", "source": "查看源码", "reset": "重置", "send": "发送给助手",
+ "sent": "已发送到当前会话", "sending": "正在发送…", "unavailable": "当前会话不可用",
+ "demo": "试试智能 UI", "demoPrompt": "请调用 render_intelligent_ui 创建一个交互式月度预算规划器：可以修改月收入及住房、饮食、交通预算，剩余金额即时联动，包含柱状图，以及一个向助手询问省钱建议的按钮。所有示例金额都明确标注为演示数据。",
+ "submit": "提交", "copy": "复制", "filter": "筛选表格", "empty": "没有匹配的行", "externalImage": "外部图片", "imageFailed": "图片不可用", "map": "打开地图", "demoBadge": "演示数据", "state": "当前输入值", "parse": "OpenUI 程序无效", "actionFailed": "请求发送失败", "progress": "正在呈现", "chart": "图表", "controls": "交互控件"
+}

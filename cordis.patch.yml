@@ -1,0 +1,3 @@
+- insert:
+    - id: intelligent-ui
+      name: '@local/dsh-intelligent-ui'
